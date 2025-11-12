@@ -16,7 +16,7 @@ public class ProductosApiApplication {
     @Bean
     CommandLineRunner init(ProductoRepository repo) {
         return args -> {
-            repo.save(new Producto(null, "Auriculares Bluetooth", "Auriculares inalámbricos", 99.99, 15, Categoria.ELECTRONICA));
+            repo.save(new Producto(null, "Teclado mecánico", "Teclado mecánico retroiluminado", 19999.99, 10, Categoria.ELECTRONICA));
             repo.save(new Producto(null, "Remera Deportiva", "Remera de algodón", 19.9, 40, Categoria.ROPA));
             repo.save(new Producto(null, "Cereal Integral", "Caja 500g", 4.5, 100, Categoria.ALIMENTOS));
             repo.save(new Producto(null, "Juego de Ollas", "Set 5 piezas", 129.0, 8, Categoria.HOGAR));
