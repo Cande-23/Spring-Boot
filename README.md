@@ -44,5 +44,8 @@ API para un mini e-commerce que permite crear, listar, filtrar, actualizar y eli
 - `stock`: >= 0
 - `categoria`: obligatoria (ELECTRONICA, ROPA, ALIMENTOS, HOGAR, DEPORTES)
 
+## Conclusión de lo aprendido
+A través de este trabajo aprendí cómo documentar y probar una API REST utilizando Swagger UI, lo que facilita la comunicación entre el backend y los usuarios o testers. También comprendí cómo funciona la base de datos H2 para persistir datos en memoria durante el desarrollo, y cómo validar correctamente los datos para manejar errores como 400 o 404. En general, me ayudó a entender mejor el flujo completo de una API, desde su creación hasta las pruebas de endpoints.
+
 ## Autor
 Maria Candela Gonzalez Pujado — Legajo: 46355
